@@ -11,6 +11,18 @@
       "email": "alphamonline@gmail.com",
       "password": "12345678",
       "id": 2
+    },
+    {
+      "name": "Test",
+      "email": "test@test.com",
+      "password": "test@123",
+      "id": 3
+    },
+    {
+      "name": "Brian",
+      "email": "brian@test.com",
+      "password": "brian@123",
+      "id": 4
     }
   ]
 }

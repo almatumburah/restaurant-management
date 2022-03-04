@@ -31,8 +31,8 @@ export default {
             console.log(result);
             if(result.status==201)
             {
-                alert("sign-up successful");
                 localStorage.setItem("user-reg", JSON.stringify(result.data));
+                this.$router.push({name:'MainPage'});
             }
         }
     },
