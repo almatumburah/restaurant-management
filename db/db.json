@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Alpha Matumbura",
+      "email": "almatumburah@gmail.com",
+      "password": "alpha@123",
+      "id": 1
+    },
+    {
+      "name": "Nelson",
+      "email": "alphamonline@gmail.com",
+      "password": "12345678",
+      "id": 2
+    }
+  ]
+}
