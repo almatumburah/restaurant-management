@@ -31,12 +31,12 @@ export default {
                 password:this.password
             });
 
-            console.log(result);
             if(result.status==201)
             {
                 localStorage.setItem("user-reg", JSON.stringify(result.data));
                 this.$router.push({name:'MainPage'});
             }
+            console.log(result);
         }
     },
     mounted() {
