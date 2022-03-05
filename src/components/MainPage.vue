@@ -3,7 +3,14 @@
 </template>
 <script>
 export default {
-    name:'MainPage'
+    name:'MainPage',
+     mounted() {
+        let user = localStorage.getItem('user-reg');
+        if(!user)
+        {
+            this.$router.push({name:'SignUp'});
+        }
+    },
 }
 </script>
 <style>

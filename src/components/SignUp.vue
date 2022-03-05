@@ -36,6 +36,13 @@ export default {
             }
         }
     },
+    mounted() {
+        let user = localStorage.getItem('user-reg');
+        if(user)
+        {
+            this.$router.push({name:'MainPage'});
+        }
+    },
 }
 </script>
 
