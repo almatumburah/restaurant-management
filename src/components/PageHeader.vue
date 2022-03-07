@@ -1,7 +1,7 @@
 <template>
 <div class="nav">
-    <a href="#">Home</a>
-    <a href="#">Add Restaurant</a>
+    <router-link to="/">Home</router-link>
+    <router-link to="/add-restaurant">Add Restaurant</router-link>
     <a v-on:click="signOut" class="logout" href="#">Sign Out</a>
 </div>
 </template>

@@ -1,23 +1,16 @@
 <template>
 <PageHeader/>
-<h1>Welcome Home</h1>
-<h4>{{name}}</h4>
+<h1>Update Restaurant</h1>
 </template>
 <script>
 import PageHeader from './PageHeader.vue';
 export default {
-    name:'MainPage',
-    data(){
-        return {
-            name:''
-        }
-    },
+    name:'UpdateRestaurant',
     components:{
         PageHeader
     },
      mounted() {
         let user = localStorage.getItem('user-reg');
-        this.name = JSON.parse(user).name;
         if(!user)
         {
             this.$router.push({name:'SignUp'});
