@@ -2,12 +2,20 @@
 <div class="nav">
     <a href="#">Home</a>
     <a href="#">Add Restaurant</a>
-    <a class="logout" href="#">Sign Out</a>
+    <a v-on:click="signOut" class="logout" href="#">Sign Out</a>
 </div>
 </template>
 <script>
 export default {
-    name:'PageHeader'
+    name:'PageHeader',
+    methods:{
+        signOut()
+        {
+            localStorage.clear();
+            this.$router.push({name:'SignIn'});
+
+        }
+    }
 }
 </script>
 <style>
