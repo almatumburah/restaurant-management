@@ -29,14 +29,26 @@
     {
       "id": "1",
       "name": "KFC",
-      "address": "Moreleta Park",
-      "contact": "1111"
+      "description": "KFC is an American multinational fast food chain that specializes in fried chicken. It is the world's second-largest restaurant chain.",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/99/44/8e/kfc-faxafeni.jpg"
     },
     {
       "id": "2",
-      "name": "Uncle Fauzi",
-      "address": "Menlyn",
-      "contact": "2222"
+      "name": "Chicken Licken",
+      "description": "Chicken Licken is a South African fast food fried chicken restaurant chain.",
+      "image": "https://chickenlicken.co.za/media/1641/TW-Soulicious.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Subway",
+      "description": "Subway is an American multinational fast food restaurant franchise that primarily sells submarine sandwiches (subs), wraps, salads and beverages.",
+      "image": "https://www.greenqueen.com.hk/wp-content/uploads/2021/12/VegNews.SubwaySingaporeChicken.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Mcdonald's",
+      "description": "McDonald's is an American multinational fast food corporation, founded in 1940 as a restaurant.",
+      "image": "https://images.deliveryhero.io/image/fd-cz/LH/o4hq-hero.jpg"
     }
   ]
 }
