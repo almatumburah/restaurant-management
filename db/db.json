@@ -49,6 +49,12 @@
       "name": "Mcdonald's",
       "description": "McDonald's is an American multinational fast food corporation, founded in 1940 as a restaurant.",
       "image": "https://images.deliveryhero.io/image/fd-cz/LH/o4hq-hero.jpg"
+    },
+    {
+      "name": "Uncle Faouzi",
+      "description": "Uncle Faouzi is a South African fast-foods restaurant.  Was founded on October 15, 2012",
+      "image": "https://pbs.twimg.com/profile_images/1417898827198128128/56dRyE50_400x400.jpg",
+      "id": "5"
     }
   ]
 }
